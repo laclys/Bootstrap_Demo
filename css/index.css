@@ -174,4 +174,111 @@ div.good_class div.course_list .row div div.img_box {
     padding: 0 5px;
     margin-bottom: 10px; } }
 
+div.class_reco .row div {
+  cursor: pointer; }
+  div.class_reco .row div div.pic {
+    position: relative; }
+    div.class_reco .row div div.pic a {
+      color: #666;
+      outline: none !important; }
+      div.class_reco .row div div.pic a img {
+        width: 100%; }
+      div.class_reco .row div div.pic a .tag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 70px;
+        height: 50px;
+        color: #fff;
+        padding: 5px 0 0 6px;
+        overflow: hidden; }
+        div.class_reco .row div div.pic a .tag span {
+          position: relative;
+          z-index: 2; }
+      div.class_reco .row div div.pic a .tag::after {
+        content: '';
+        display: inline-block;
+        border: 8px solid transparent;
+        position: absolute;
+        border-width: 50px;
+        border-left: 70px solid #12c888;
+        left: 0;
+        top: -50px; }
+  div.class_reco .row div div.info {
+    padding: 0 14px;
+    border: 1px solid #f0f0f0; }
+    div.class_reco .row div div.info h3 {
+      font-size: 14px;
+      color: #444;
+      margin: 13px 0; }
+    div.class_reco .row div div.info p {
+      color: #666;
+      font-size: 12px;
+      height: 34px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical; }
+    div.class_reco .row div div.info .btn.btn-primary, div.class_reco .row div.good_class div.info nav ul li.btn:hover, div.class_reco .row div.good_class nav ul div.info li.btn:hover {
+      color: #fff !important;
+      background: #15c288;
+      border: 1px solid #15c288; }
+    div.class_reco .row div div.info a {
+      width: 100%;
+      display: block;
+      margin-bottom: 15px;
+      padding: 8px 0;
+      border-radius: 4px; }
+
+.hot_tags div.row {
+  border-right: 1px solid #efefef; }
+  .hot_tags div.row div {
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #efefef;
+    border-right: none;
+    margin-top: -1px;
+    font-size: 16px; }
+    .hot_tags div.row div a {
+      display: block;
+      padding: 17px 10px 7px 10px;
+      color: #666; }
+      .hot_tags div.row div a p {
+        margin: 0 0 10px; }
+        .hot_tags div.row div a p img {
+          border-radius: 50%;
+          width: 80px;
+          overflow: hidden; }
+        .hot_tags div.row div a p span {
+          color: #15c288;
+          font-size: 14px; }
+
+div.bottom_box {
+  padding: 70px 0;
+  background: url(../img/bottom_bg.jpg);
+  background-size: cover; }
+  div.bottom_box .container {
+    text-align: center; }
+    div.bottom_box .container div.row a {
+      color: #fff;
+      outline: none !important; }
+      div.bottom_box .container div.row a .pic {
+        margin-bottom: 20px; }
+        div.bottom_box .container div.row a .pic img {
+          max-width: 100%; }
+    div.bottom_box .container div.row a:hover {
+      outline: none !important;
+      text-decoration: none; }
+    div.bottom_box .container div.more a {
+      border: 1px solid #fff;
+      border-radius: 30px;
+      padding: 12px 35px;
+      font-size: 24px;
+      color: #fff; }
+    div.bottom_box .container div.more a:hover {
+      background: #fff;
+      color: #15c288;
+      text-decoration: none; }
+
 /*# sourceMappingURL=index.css.map */
