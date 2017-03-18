@@ -1,0 +1,241 @@
+a {
+    color: #666;
+    outline: none !important;
+}
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caret {
+    border-top: 4px solid;
+}
+
+.dropdown-menu {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: none;
+}
+
+.header {
+    background: #fff;
+    box-shadow: 1.5px 2.598px 9px 0 rgba(0, 0, 0, 0.054);
+    position: relative;
+    height: 80px;
+    .container {
+        height: 80px;
+    }
+    ul.topmenu {
+        li {
+            // height: 80px;
+            a {
+                padding: 30px 25px;
+                font-size: 16px;
+            }
+            a:focus {
+                color: #15c288;
+                text-decoration: none !important;
+            }
+            a:hover {
+                color: #15c288;
+                text-decoration: none !important;
+                background-color: #fff;
+            }
+        }
+        .dropdown-menu {
+            min-width: 265px;
+            padding: 5px;
+            li {
+                // height: 15px;
+                min-width: 85px;
+                a {
+                    text-align: center;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+
+section {
+    width: 100%;
+    .swiper-slide {
+        width: 100%;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+h2 {
+    font-size: 24px;
+    position: relative;
+    text-align: center;
+    margin: 60px auto 35px;
+    strong {
+        font-weight: normal;
+        padding: 0 20px;
+        background: #fff;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+h2:after {
+    content: '';
+    position: absolute;
+    background: #efefef;
+    height: 1px;
+    left: 0;
+    right: 0;
+    top: 13px;
+}
+
+div.hot_class {
+    .col-xs-6 {
+        padding: 0 10px 0 0;
+        cursor: pointer;
+        img {
+            width: 97%;
+        }
+    }
+    .double {
+        padding: 0 0 0 10px;
+    }
+    .show {
+        position: absolute;
+        width: 51%;
+        height: 54%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        color: #fff;
+        // background: blue;
+        margin: auto;
+        div {
+            padding: 12% 10%;
+            margin-bottom: 5%;
+            border: 3px solid #fff;
+            background: rgba(0, 0, 0, 0.15);
+            h3 {
+                margin: 0;
+                height: 48px;
+                line-height: 24px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                font-weight: bold;
+                text-align: center;
+            }
+        }
+        p {
+            text-align: center;
+            span {
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+div.good_class {
+    nav {
+        ul {
+            margin-bottom: 25px;
+            position: relative;
+            text-align: center;
+            .btn-primary {
+                color: #fff !important;
+                background: #15c288;
+                border: 1px solid #15c288;
+            }
+            li {
+                margin: 0 10px;
+                border-radius: 2px;
+                display: inline-block;
+            }
+            li:hover {
+                @extend .btn-primary;
+            }
+        }
+    }
+    div.course_list {
+        .row {
+            div {
+                div.img_box {
+                    margin-bottom: 10px;
+                    box-shadow: none;
+                    border: none;
+                    .course-img {
+                        position: relative;
+                        overflow: hidden;
+                        a {
+                            color: #666;
+                            outline: none !important;
+                            img {
+                                width: 100%;
+                                transition: 0.5s all linear;
+                            }
+                        }
+                        a:hover {
+                            img {
+                                transform: scale(1.1);
+                            }
+                        }
+                    }
+                    .course-info {
+                        padding: 12px 6px;
+                        .title {
+                            height: 20px;
+                            margin-bottom: 10px;
+                            overflow: hidden;
+                            position: relative;
+                            a {
+                                font-weight: bold;
+                                color: #444;
+                                position: absolute;
+                                top: 2px;
+                            }
+                        }
+                        .teacher {
+                            height: 24px;
+                            position: relative;
+                            line-height: 24px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            a {
+                                color: #999;
+                                padding-right: 4px;
+                                position: relative;
+                            }
+                            .price {
+                                position: absolute;
+                                right: 0;
+                                top: 0;
+                                padding-left: 10px;
+                                background: #fff;
+                                color: #fd9271;
+                            }
+                        }
+                    }
+                }
+                @media(max-width:767px) {
+                    div.img_box.c12 {
+                        width: 50%;
+                        float: left;
+                        padding: 0 5px;
+                        margin-bottom: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
